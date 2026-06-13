@@ -10,7 +10,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-  origin: ['https://royalblue-camel-149209.hostingersite.com', 'https://aqua-pigeon-679923.hostingersite.com', 'http://localhost:3000'],
+  origin: ['https://digikraftsocial.com', 'https://www.digikraftsocial.com', 'https://backend.digikraftsocial.com', 'http://localhost:3000'],
   credentials: true,
 }));
 app.use(cookieParser());
